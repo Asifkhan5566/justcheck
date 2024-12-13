@@ -1,0 +1,150 @@
+:root{
+ 
+--color1:#b49383;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: Arial;
+}
+.para1{
+    font-family: "Stylish", serif;
+    line-height: 1rem;
+    font-weight: 100;
+    
+   
+    
+
+    
+}
+.para1:hover{
+    color:var(--color1) !important ;
+}
+
+.Resturant{
+
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    
+}
+a[class^="nav-link"]{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.hover:hover{
+color:var(--color1) !important; 
+}
+.but1{
+    background: none;
+   height: 3rem;
+   width: 17rem;
+    
+}
+.but1:hover{
+    background-color: white !important;
+    transition: 0.5s;
+    color: black !important;
+}
+.mainsection{
+    height: 90vh;
+    background-image:url(img/image1.webp) ;
+    background-size:100% 100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    
+   
+}
+  ::-webkit-scrollbar {
+    width: 15px;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color1); 
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background:rgb(206, 136, 206); 
+  }  
+   @media (max-width: 300px){
+    .mainsection{
+    background-size: cover;
+    background-position:center;
+    
+    
+  
+    }
+    .head1{
+      font-size: 2rem !important;
+    }
+    .head2{
+      font-size: 3rem !important;
+    }
+    #para3{
+      font-size: 1.5rem!important;
+    }
+
+
+   }
+  @media (min-width: 300px) and (max-width: 768px){
+    .mainsection{
+      background-size: cover;
+      background-position:center;
+      
+      
+    
+      }
+    
+    .head2{
+         font-size: 3rem !important;
+        }
+    .head1{
+font-size: 2rem !important;
+    }
+    
+ 
+} 
+
+  
+  @media (min-width:767px) and (max-width: 1024px){
+    .mainsection{
+        background-size: cover;
+        background-position:center;
+
+        
+      
+        }
+        .head1{
+          font-size: 3rem !important;
+        }
+        .head2{
+          font-size: 4.5rem !important;
+        }
+        #para3{
+          font-size: 2rem!important;
+        }
+
+  }
+   .head2{
+      
+    color: var(--color1);
+    font-family: "Agbalumo", system-ui;
+    
+    font-size: 4.5rem;
+    
+} 
+   .head1{
+     font-size: 4rem; 
+     line-height: 3rem; 
+}     
+
+
+
+
+
+
